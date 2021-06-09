@@ -5,3 +5,19 @@ urdf_briobot_controller:
     publish_rate: 50
 
   # Position Controllers --------------------------------------
+  Rev57_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev57
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev58_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev58
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev59_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev59
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev60_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev60
+    pid: {p: 100.0, i: 0.01, d: 10.0}

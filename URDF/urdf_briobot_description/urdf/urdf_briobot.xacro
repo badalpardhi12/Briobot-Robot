@@ -6,7 +6,7 @@
 <xacro:include filename="$(find urdf_briobot_description)/urdf/urdf_briobot.gazebo" />
 <link name="base_link">
   <inertial>
-    <origin rpy="0 0 0" xyz="0.13387666918834928 2.4424255757540852e-08 0.07763348233121511"/>
+    <origin rpy="0 0 0" xyz="0.10319571694810317 2.4424255185476127e-08 0.08376967277926398"/>
     <mass value="9.658168325363642"/>
     <inertia ixx="0.167413" ixy="0.0" ixz="-8.1e-05" iyy="0.271238" iyz="-0.0" izz="0.394278"/>
   </inertial>
@@ -25,84 +25,252 @@
   </collision>
 </link>
 
-<link name="Battery_v2_1">
+<link name="Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_1">
   <inertial>
-    <origin rpy="0 0 0" xyz="-1.2461714864048234e-05 0.050000113454839595 0.04999506007740553"/>
-    <mass value="11.77379066110205"/>
-    <inertia ixx="0.019619" ixy="0.0" ixz="8e-06" iyy="0.031887" iyz="-0.0" izz="0.031886"/>
+    <origin rpy="0 0 0" xyz="8.781640970685622e-07 -0.031838083171319406 0.023985698987800338"/>
+    <mass value="0.48186100153238265"/>
+    <inertia ixx="0.000507" ixy="0.0" ixz="0.0" iyy="0.000138" iyz="2e-06" izz="0.000497"/>
   </inertial>
   <visual>
-    <origin rpy="0 0 0" xyz="-0.130681 -0.0915 -0.020864"/>
+    <origin rpy="0 0 0" xyz="0.03075 -0.145 -0.027"/>
     <geometry>
-      <mesh filename="package://urdf_briobot_description/meshes/Battery_v2_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_briobot_description/meshes/Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver_default"/>
   </visual>
   <collision>
-    <origin rpy="0 0 0" xyz="-0.130681 -0.0915 -0.020864"/>
+    <origin rpy="0 0 0" xyz="0.03075 -0.145 -0.027"/>
     <geometry>
-      <mesh filename="package://urdf_briobot_description/meshes/Battery_v2_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_briobot_description/meshes/Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="Battery_v2_2">
+<link name="Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_2">
   <inertial>
-    <origin rpy="0 0 0" xyz="-1.2461714864214768e-05 -0.04999988927207291 0.04999506007740554"/>
-    <mass value="11.77379066110205"/>
-    <inertia ixx="0.019619" ixy="0.0" ixz="8e-06" iyy="0.031887" iyz="-0.0" izz="0.031886"/>
+    <origin rpy="0 0 0" xyz="8.781640969401927e-07 -0.03183808317131859 0.023985698987800407"/>
+    <mass value="0.48186100153238265"/>
+    <inertia ixx="0.000507" ixy="0.0" ixz="0.0" iyy="0.000138" iyz="2e-06" izz="0.000497"/>
   </inertial>
   <visual>
-    <origin rpy="0 0 0" xyz="-0.130681 0.0915 -0.020864"/>
+    <origin rpy="0 0 0" xyz="-0.23075 -0.145 -0.027"/>
     <geometry>
-      <mesh filename="package://urdf_briobot_description/meshes/Battery_v2_2.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_briobot_description/meshes/Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver_default"/>
   </visual>
   <collision>
-    <origin rpy="0 0 0" xyz="-0.130681 0.0915 -0.020864"/>
+    <origin rpy="0 0 0" xyz="-0.23075 -0.145 -0.027"/>
     <geometry>
-      <mesh filename="package://urdf_briobot_description/meshes/Battery_v2_2.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://urdf_briobot_description/meshes/Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_3">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-8.781640962601811e-07 0.031838083171319476 0.02398569898780033"/>
+    <mass value="0.48186100153238265"/>
+    <inertia ixx="0.000507" ixy="0.0" ixz="-0.0" iyy="0.000138" iyz="-2e-06" izz="0.000497"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.03075 0.145 -0.027"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.03075 0.145 -0.027"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_4">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-8.781640975785709e-07 0.03183808317131999 0.02398569898780033"/>
+    <mass value="0.48186100153238265"/>
+    <inertia ixx="0.000507" ixy="0.0" ixz="-0.0" iyy="0.000138" iyz="-2e-06" izz="0.000497"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.23075 0.145 -0.027"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_4.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.23075 0.145 -0.027"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_4.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Rocker_Switch__with_engraving__v1_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.003363915793775263 -4.7914448628749875e-06 -0.009261251180016472"/>
+    <mass value="0.02188626520907973"/>
+    <inertia ixx="1e-06" ixy="0.0" ixz="-0.0" iyy="1e-06" iyz="-0.0" izz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.15 9.3e-05 -0.134312"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Rocker_Switch__with_engraving__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.15 9.3e-05 -0.134312"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Rocker_Switch__with_engraving__v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Mecanum_1_v1_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-3.100608397151039e-07 -0.025615758423174595 1.0244655881952447e-07"/>
+    <mass value="1.7475206214979897"/>
+    <inertia ixx="0.001182" ixy="-0.0" ixz="-0.0" iyy="0.001667" iyz="-0.0" izz="0.001182"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.03075 0.175375 -0.054"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Mecanum_1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.03075 0.175375 -0.054"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Mecanum_1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Mecanum_2_v1_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-3.1015727783301195e-07 -0.025964293744017736 1.0250202490957872e-07"/>
+    <mass value="1.7475177380819698"/>
+    <inertia ixx="0.001182" ixy="0.0" ixz="-0.0" iyy="0.001667" iyz="0.0" izz="0.001182"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.23075 0.175375 -0.054"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Mecanum_2_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.23075 0.175375 -0.054"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Mecanum_2_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Mecanum_1_v1_2">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-3.1006083983653454e-07 0.02561575842317529 -1.0244655884728004e-07"/>
+    <mass value="1.7475206214979897"/>
+    <inertia ixx="0.001182" ixy="0.0" ixz="0.0" iyy="0.001667" iyz="-0.0" izz="0.001182"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.23075 -0.162875 -0.054"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Mecanum_1_v1_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.23075 -0.162875 -0.054"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Mecanum_1_v1_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Mecanum_2_v1_2">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-3.101572763203331e-07 0.02561573041905532 1.0250202505529549e-07"/>
+    <mass value="1.7475177380819698"/>
+    <inertia ixx="0.001182" ixy="0.0" ixz="-0.0" iyy="0.001667" iyz="0.0" izz="0.001182"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.03075 -0.162875 -0.054"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Mecanum_2_v1_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.03075 -0.162875 -0.054"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Mecanum_2_v1_2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
 <link name="LiDAR_Mounting_Bracket_v1_1">
   <inertial>
-    <origin rpy="0 0 0" xyz="0.009955631859374148 -2.1576124857385804e-15 0.1537722927063161"/>
+    <origin rpy="0 0 0" xyz="0.009955679619128466 0.0014999999999983013 0.18077248315436523"/>
     <mass value="0.17153613354496666"/>
     <inertia ixx="0.001684" ixy="0.0" ixz="-0.000164" iyy="0.001707" iyz="-0.0" izz="8.3e-05"/>
   </inertial>
   <visual>
-    <origin rpy="0 0 0" xyz="-0.390681 0.0 -0.096114"/>
+    <origin rpy="0 0 0" xyz="-0.36 0.0015 -0.07525"/>
     <geometry>
       <mesh filename="package://urdf_briobot_description/meshes/LiDAR_Mounting_Bracket_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver_default"/>
   </visual>
   <collision>
-    <origin rpy="0 0 0" xyz="-0.390681 0.0 -0.096114"/>
+    <origin rpy="0 0 0" xyz="-0.36 0.0015 -0.07525"/>
     <geometry>
       <mesh filename="package://urdf_briobot_description/meshes/LiDAR_Mounting_Bracket_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
+<link name="ydlidar_x4_v1_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.008623438783330772 -1.7380650805345794e-15 0.011855874979581238"/>
+    <mass value="1.089588737622818"/>
+    <inertia ixx="0.000435" ixy="0.0" ixz="-0.000156" iyy="0.000803" iyz="-0.0" izz="0.00093"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.3935 0.0 -0.36075"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/ydlidar_x4_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.3935 0.0 -0.36075"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/ydlidar_x4_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
 <link name="Mounting_Bracket_Screw_v1_1">
   <inertial>
-    <origin rpy="0 0 0" xyz="0.009061651876418775 -1.7941873827039803e-15 -1.945160658656242e-07"/>
+    <origin rpy="0 0 0" xyz="0.009061699636173204 -1.7347933980652546e-15 -4.06801703434212e-09"/>
     <mass value="0.009575434948030625"/>
     <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="-0.0" izz="0.0"/>
   </inertial>
   <visual>
-    <origin rpy="0 0 0" xyz="-0.380681 0.0 -0.091114"/>
+    <origin rpy="0 0 0" xyz="-0.35 0.0 -0.09725"/>
     <geometry>
       <mesh filename="package://urdf_briobot_description/meshes/Mounting_Bracket_Screw_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver_default"/>
   </visual>
   <collision>
-    <origin rpy="0 0 0" xyz="-0.380681 0.0 -0.091114"/>
+    <origin rpy="0 0 0" xyz="-0.35 0.0 -0.09725"/>
     <geometry>
       <mesh filename="package://urdf_briobot_description/meshes/Mounting_Bracket_Screw_v1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -111,53 +279,159 @@
 
 <link name="Mounting_Bracket_Screw_v1_2">
   <inertial>
-    <origin rpy="0 0 0" xyz="0.009061651876419052 -1.7941873827039803e-15 -1.9482899023259836e-07"/>
+    <origin rpy="0 0 0" xyz="0.009061699636173204 -1.7703205348532597e-15 -4.380941415194073e-09"/>
     <mass value="0.009575434948030625"/>
     <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="-0.0" izz="0.0"/>
   </inertial>
   <visual>
-    <origin rpy="0 0 0" xyz="-0.380681 0.0 -0.070114"/>
+    <origin rpy="0 0 0" xyz="-0.35 0.0 -0.07625"/>
     <geometry>
       <mesh filename="package://urdf_briobot_description/meshes/Mounting_Bracket_Screw_v1_2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver_default"/>
   </visual>
   <collision>
-    <origin rpy="0 0 0" xyz="-0.380681 0.0 -0.070114"/>
+    <origin rpy="0 0 0" xyz="-0.35 0.0 -0.07625"/>
     <geometry>
       <mesh filename="package://urdf_briobot_description/meshes/Mounting_Bracket_Screw_v1_2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<joint name="Rigid10" type="fixed">
-  <origin rpy="0 0 0" xyz="0.130681 0.0915 0.020864"/>
+<link name="Battery_v1_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-1.2413955109841224e-05 0.05000011345483976 0.04999525052545445"/>
+    <mass value="11.77379066110205"/>
+    <inertia ixx="0.019619" ixy="0.0" ixz="8e-06" iyy="0.031887" iyz="-0.0" izz="0.031886"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.1 -0.0915 -0.027"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Battery_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.1 -0.0915 -0.027"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Battery_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Battery_v1_2">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-1.241395510986898e-05 -0.04999988927207241 0.04999525052545445"/>
+    <mass value="11.77379066110205"/>
+    <inertia ixx="0.019619" ixy="0.0" ixz="8e-06" iyy="0.031887" iyz="-0.0" izz="0.031886"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.1 0.0915 -0.027"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Battery_v1_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.1 0.0915 -0.027"/>
+    <geometry>
+      <mesh filename="package://urdf_briobot_description/meshes/Battery_v1_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rigid52" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.03075 0.145 0.027"/>
   <parent link="base_link"/>
-  <child link="Battery_v2_1"/>
+  <child link="Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_1"/>
 </joint>
 
-<joint name="Rigid11" type="fixed">
-  <origin rpy="0 0 0" xyz="0.130681 -0.0915 0.020864"/>
+<joint name="Rigid53" type="fixed">
+  <origin rpy="0 0 0" xyz="0.23075 0.145 0.027"/>
   <parent link="base_link"/>
-  <child link="Battery_v2_2"/>
+  <child link="Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_2"/>
 </joint>
 
-<joint name="Rigid22" type="fixed">
-  <origin rpy="0 0 0" xyz="0.390681 0.0 0.096114"/>
+<joint name="Rigid54" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.03075 -0.145 0.027"/>
+  <parent link="base_link"/>
+  <child link="Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_3"/>
+</joint>
+
+<joint name="Rigid55" type="fixed">
+  <origin rpy="0 0 0" xyz="0.23075 -0.145 0.027"/>
+  <parent link="base_link"/>
+  <child link="Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_4"/>
+</joint>
+
+<joint name="Rigid56" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.15 -9.3e-05 0.134312"/>
+  <parent link="base_link"/>
+  <child link="Rocker_Switch__with_engraving__v1_1"/>
+</joint>
+
+<joint name="Rev57" type="continuous">
+  <origin rpy="0 0 0" xyz="0.0 -0.030375 0.027"/>
+  <parent link="Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_3"/>
+  <child link="Mecanum_1_v1_1"/>
+  <axis xyz="-0.0 -1.0 -0.0"/>
+</joint>
+
+<joint name="Rev58" type="continuous">
+  <origin rpy="0 0 0" xyz="0.0 -0.030375 0.027"/>
+  <parent link="Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_4"/>
+  <child link="Mecanum_2_v1_1"/>
+  <axis xyz="-0.0 -1.0 -0.0"/>
+</joint>
+
+<joint name="Rev59" type="continuous">
+  <origin rpy="0 0 0" xyz="0.0 0.017875 0.027"/>
+  <parent link="Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_2"/>
+  <child link="Mecanum_1_v1_2"/>
+  <axis xyz="0.0 1.0 -0.0"/>
+</joint>
+
+<joint name="Rev60" type="continuous">
+  <origin rpy="0 0 0" xyz="0.0 0.017875 0.027"/>
+  <parent link="Universal_Bracket_For_Planetary_DC_Geared_Motor__Bend__v4_1"/>
+  <child link="Mecanum_2_v1_2"/>
+  <axis xyz="0.0 1.0 -0.0"/>
+</joint>
+
+<joint name="Rigid61" type="fixed">
+  <origin rpy="0 0 0" xyz="0.36 -0.0015 0.07525"/>
   <parent link="base_link"/>
   <child link="LiDAR_Mounting_Bracket_v1_1"/>
 </joint>
 
-<joint name="Rigid23" type="fixed">
-  <origin rpy="0 0 0" xyz="0.380681 0.0 0.091114"/>
+<joint name="Rigid62" type="fixed">
+  <origin rpy="0 0 0" xyz="0.0335 0.0015 0.2855"/>
+  <parent link="LiDAR_Mounting_Bracket_v1_1"/>
+  <child link="ydlidar_x4_v1_1"/>
+</joint>
+
+<joint name="Rigid63" type="fixed">
+  <origin rpy="0 0 0" xyz="0.35 0.0 0.09725"/>
   <parent link="base_link"/>
   <child link="Mounting_Bracket_Screw_v1_1"/>
 </joint>
 
-<joint name="Rigid24" type="fixed">
-  <origin rpy="0 0 0" xyz="0.380681 0.0 0.070114"/>
+<joint name="Rigid64" type="fixed">
+  <origin rpy="0 0 0" xyz="0.35 0.0 0.07625"/>
   <parent link="base_link"/>
   <child link="Mounting_Bracket_Screw_v1_2"/>
+</joint>
+
+<joint name="Rigid65" type="fixed">
+  <origin rpy="0 0 0" xyz="0.1 0.0915 0.027"/>
+  <parent link="base_link"/>
+  <child link="Battery_v1_1"/>
+</joint>
+
+<joint name="Rigid66" type="fixed">
+  <origin rpy="0 0 0" xyz="0.1 -0.0915 0.027"/>
+  <parent link="base_link"/>
+  <child link="Battery_v1_2"/>
 </joint>
 
 </robot>
